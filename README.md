@@ -5,12 +5,12 @@
 
 <h1 align="center">Klasifikasi Penyakit Tanaman Jagung Berdasarkan Citra Daun</h1>
 
-<h5  align="center"> 
-    Tanaman jagung (Zea mays) merupakan salah satu komoditas pangan penting di berbagai negara, termasuk Indonesia. Produksi jagung yang optimal sangat diperlukan untuk memenuhi kebutuhan pangan, pakan, dan bahan baku industri. Namun, berbagai jenis penyakit pada tanaman jagung dapat mengancam hasil panen. Penyakit-penyakit tersebut sering kali ditandai dengan perubahan pada warna, tekstur, dan pola pada daun jagung, seperti bercak atau perubahan bentuk daun.
+<h5  align="left"> 
+  Tanaman jagung (Zea mays) merupakan salah satu komoditas pangan penting di berbagai negara, termasuk Indonesia. Produksi jagung yang optimal sangat diperlukan untuk memenuhi kebutuhan pangan, pakan, dan bahan baku industri. Namun, berbagai jenis penyakit pada tanaman jagung dapat mengancam hasil panen. Penyakit-penyakit tersebut sering kali ditandai dengan perubahan pada warna, tekstur, dan pola pada daun jagung, seperti bercak atau perubahan bentuk daun.
 
-    Pendeteksian dini dan klasifikasi penyakit tanaman jagung sangat penting agar petani dapat mengambil langkah pengendalian yang cepat dan efektif. Akan tetapi, metode tradisional seperti observasi manual sering kali memakan waktu, bergantung pada pengalaman individu, dan rawan kesalahan.
+  Pendeteksian dini dan klasifikasi penyakit tanaman jagung sangat penting agar petani dapat mengambil langkah pengendalian yang cepat dan efektif. Akan tetapi, metode tradisional seperti observasi manual sering kali memakan waktu, bergantung pada pengalaman individu, dan rawan kesalahan.
 
-    Dalam beberapa tahun terakhir, perkembangan teknologi pengolahan citra (image processing) dan kecerdasan buatan (AI) telah membuka peluang untuk membuat sistem otomatis yang dapat mendeteksi dan mengklasifikasikan penyakit tanaman dengan akurat. Sistem ini dapat membantu petani meningkatkan efisiensi dan efektivitas dalam menjaga kesehatan tanaman jagung.
+  Dalam beberapa tahun terakhir, perkembangan teknologi pengolahan citra (image processing) dan kecerdasan buatan (AI) telah membuka peluang untuk membuat sistem otomatis yang dapat mendeteksi dan mengklasifikasikan penyakit tanaman dengan akurat. Sistem ini dapat membantu petani meningkatkan efisiensi dan efektivitas dalam menjaga kesehatan tanaman jagung.
 </h5>
 ---
 <p align="center">
