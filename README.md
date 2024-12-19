@@ -40,7 +40,7 @@ Dataset yang digunakan bersumber dari platform Kaggle dengan total 4 class yang 
 ### Langkah Instalasi
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/zaidannn/Analisis-Data-Spotify.git
+   git clone https://github.com/Tooomat/UAP-MachineLearning7B.git
    
 ### Deskripsi Model
 
