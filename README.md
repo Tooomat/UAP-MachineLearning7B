@@ -22,6 +22,7 @@
 </p>
 
 ### About Dataset
+Link Dataset: https://www.kaggle.com/datasets/smaranjitghose/corn-or-maize-leaf-disease-dataset 
 Dataset ini untuk klasifikasi penyakit daun tanaman jagung atau jagung
 Dataset yang digunakan bersumber dari platform Kaggle dengan total 4 class yang total datanya berjumlah 4188k file
 
