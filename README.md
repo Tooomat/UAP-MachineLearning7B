@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">Klasifikasi Penyakit Tanaman Jagung Berdasarkan Citra Daun</h1>
----
+
 <p align="center">
   <div style="text-align: center;">
     <table border="1" style="margin: auto;">
