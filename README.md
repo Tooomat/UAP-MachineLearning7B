@@ -29,14 +29,12 @@ Link Dataset Dapat Diakses di Link berikut: https://www.kaggle.com/datasets/smar
 
 ### Overview Dataset
 Dataset ini untuk klasifikasi penyakit daun tanaman jagung atau jagung
-Dataset yang digunakan bersumber dari platform Kaggle dengan total 4 class yang total datanya berjumlah 4188k file, ayang akan dilakukan split data menjadi train(80%) validasi(10%) dan test(10%) 
+Dataset yang digunakan bersumber dari platform Kaggle dengan total 4 class yang total datanya berjumlah 4188k file yang akan dilakukan split data menjadi train(80%) validasi(10%) dan test(10%) 
 
 - 0: Common Rust - 1306 images
 - 1: Gray Leaf Spot - 574 images
 - 2: Blight -1146 images
 - 3: Healthy - 1162 images
-
-
 
 ### Langkah Instalasi
 1. Clone repositori ini:
