@@ -106,21 +106,21 @@ def predict_image(img_array, model_path):
         "Healthy"
     ]
 
-    try:
-        model = tf.keras.models.load_model(model_path)
-        output = model.predict(img_array)
-        score = tf.nn.softmax(output[0])
-        print(score)
-        confidence = np.max(score)
+    # try:
+    model = tf.keras.models.load_model(model_path)
+    output = model.predict(img_array)
+    score = tf.nn.softmax(output[0])
+    print(score)
+    confidence = np.max(score)
 
-        # if confidence < 0.40:
-        #     return None, confidence
+    # if confidence < 0.40:
+    #     return None, confidence
 
-        predicted_class = class_names[np.argmax(score)]
-        return predicted_class, confidence
-    except Exception as e:
-        st.error(f"Terjadi kesalahan saat pemrosesan gambar/prediksi: {e}")
-        return None, None
+    predicted_class = class_names[np.argmax(score)]
+    return predicted_class, confidence
+    # except Exception as e:
+    #     st.error(f"Terjadi kesalahan saat pemrosesan gambar/prediksi: {e}")
+    #     return None, None
 
 
 # Fungsi untuk prediksi gambar menggunakan TFLite
