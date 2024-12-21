@@ -1,6 +1,6 @@
 # UAP-MachineLearning7B
 <p align="center">
-  <img src="https://github.com/Tooomat/UAP-MachineLearning7B/blob/main/Kartun%20Jagung%2C%20Jagung%2C%20Vektor%2C%20Ilustrasi%20PNG%20dan%20Vektor%20dengan%20Background%20Transparan%20untuk%20Unduh%20Gratis.jpg" alt="Logo" width="200">
+  <img src="[https://github.com/Tooomat/UAP-MachineLearning7B/blob/main/Kartun%20Jagung%2C%20Jagung%2C%20Vektor%2C%20Ilustrasi%20PNG%20dan%20Vektor%20dengan%20Background%20Transparan%20untuk%20Unduh%20Gratis.jpg](https://github.com/Tooomat/UAP-MachineLearning7B/blob/main/assets/jagung.jpg)" alt="Logo" width="200">
 </p>
 
 <h1 align="center">Klasifikasi Penyakit Tanaman Jagung Berdasarkan Citra Daun</h1>
