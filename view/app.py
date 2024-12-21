@@ -294,22 +294,22 @@ with corn_tab:
                         img = Image.open(upload)
                         img = img.resize((1000, 500))
                         st.image(img, caption="Gambar yang diunggah")
-                        if result is None:
-                            st.error("⚠️ Gambar yang diunggah tidak termasuk dalam kategori penyakit yang dikenali!")
-                            if confidence is not None:
-                                with col1:
-                                    st.warning(f"""
-                                        Tingkat keyakinan model: {confidence:.2%}
+                        # if result is None:
+                        #     st.error("⚠️ Gambar yang diunggah tidak termasuk dalam kategori penyakit yang dikenali!")
+                        #     if confidence is not None:
+                        #         with col1:
+                        #             st.warning(f"""
+                        #                 Tingkat keyakinan model: {confidence:.2%}
 
-                                        Model saat ini hanya dapat mendeteksi:
-                                        - Daun jagung yang terinfeksi Blight
-                                        - Daun jagung yang terinfeksi Common Rust
-                                        - Daun jagung yang terinfeksi Gray Leaf Spot
-                                        - Daun jagung sehat
-                                    """)
-                        else:
-                            st.success(f"Hasil Prediksi: **{result}**")
-                            st.write(f"Tingkat Kepercayaan: **{confidence:.2%}**")
+                        #                 Model saat ini hanya dapat mendeteksi:
+                        #                 - Daun jagung yang terinfeksi Blight
+                        #                 - Daun jagung yang terinfeksi Common Rust
+                        #                 - Daun jagung yang terinfeksi Gray Leaf Spot
+                        #                 - Daun jagung sehat
+                        #             """)
+                        # else:
+                        st.success(f"Hasil Prediksi: **{result}**")
+                        st.write(f"Tingkat Kepercayaan: **{confidence:.2%}**")
                 except Exception as e:
                     st.error(f"Terjadi kesalahan saat memproses gambar: {e}")
             else:
