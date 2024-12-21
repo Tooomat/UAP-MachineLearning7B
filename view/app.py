@@ -86,7 +86,7 @@ def set_background(image_file):
     st.markdown(style, unsafe_allow_html=True)
 
 # Set background
-set_background('../static/images/about_bg.jpg')
+set_background('static/images/about_bg.jpg')
 
 # Fungsi untuk preprocessing gambar
 def preprocess_image(image_bytes):
@@ -173,7 +173,7 @@ with deaseas_tab:
     height = 200 # Tinggi yang diinginkan
 
     with col1:
-        img = resize_image("../static/images/Corn_Blight (2).jpg", width, height)
+        img = resize_image("static/images/Corn_Blight (2).jpg", width, height)
         st.image(img, caption="Corn Blight")
         st.markdown("""
         **Penjelasan:**  
@@ -186,7 +186,7 @@ with deaseas_tab:
         """)
 
     with col2:
-        img = resize_image("../static/images/Corn_Common_Rust (2).jpg", width, height)
+        img = resize_image("static/images/Corn_Common_Rust (2).jpg", width, height)
         st.image(img, caption="Corn Common Rust")
         st.markdown("""
         **Penjelasan:**  
@@ -199,7 +199,7 @@ with deaseas_tab:
         """)
 
     with col3:
-        img = resize_image("../static/images/Corn_Gray_Spot (22).jpg", width, height)
+        img = resize_image("static/images/Corn_Gray_Spot (22).jpg", width, height)
         st.image(img, caption="Corn Gray Spot")
         st.markdown("""
         **Penjelasan:**  
@@ -212,7 +212,7 @@ with deaseas_tab:
         """)
 
     with col4:
-        img = resize_image("../static/images/Corn_Health (11).jpg", width, height)
+        img = resize_image("static/images/Corn_Health (11).jpg", width, height)
         st.image(img, caption="Corn Healthy")
         st.markdown("""
         **Penjelasan:**  
