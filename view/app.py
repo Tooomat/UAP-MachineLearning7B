@@ -113,8 +113,8 @@ def predict_image(img_array, model_path):
         print(score)
         confidence = np.max(score)
 
-        if confidence < 0.40:
-            return None, confidence
+        # if confidence < 0.40:
+        #     return None, confidence
 
         predicted_class = class_names[np.argmax(score)]
         return predicted_class, confidence
